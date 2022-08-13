@@ -35,8 +35,7 @@ jobs:
         key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
     - run: echo '${{ toJSON(steps.node_modules_cache_id.outputs) }}'
     - if: ${{ steps.node_modules_cache_id.outputs.cache-hit != 'true' }}
-
-    - run: npm install
+      run: npm install
 
     - name: Download data and set up environment variables
       run: |
