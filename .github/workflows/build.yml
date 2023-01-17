@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron:  '*/* * 7 * *'
+    - cron:  '0 10 * * 1'
     # 7日ごとに実行
 
 jobs:
