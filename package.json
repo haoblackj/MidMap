@@ -16,7 +16,7 @@
     "@types/react": "^17.0.41",
     "@types/react-dom": "^17.0.14",
     "chalk": "^5.0.1",
-    "icon-gen": "^3.0.0",
+    "icon-gen": "^5.0.0",
     "next-qrcode": "^2.2.2",
     "pwa-asset-generator": "^6.0.6",
     "react": "^17.0.2",
